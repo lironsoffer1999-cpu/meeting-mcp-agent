@@ -34,6 +34,18 @@ The Meeting MCP Agent is currently capable of autonomously managing meeting requ
 - [x] **15-Minute Scheduler:** Implements a background polling loop via `schedule` library.
 - [x] **Main Entry Point:** `main.py` provides a clean start for the entire agent.
 
+#### 6. MCP Layer Added
+- [x] **FastMCP Server:** `mcp_server.py` exposes core functionality as standardized MCP tools.
+- [x] **Tool Verification:** Successfully verified discovery of all tools using `mcp_client_demo.py`.
+- [x] **Available Tools:**
+    - `fetch_new_emails`
+    - `parse_meeting_request`
+    - `check_calendar_availability`
+    - `find_alternative_slot`
+    - `create_calendar_event`
+    - `send_gmail_reply`
+    - `mark_email_as_read`
+
 ### Technical Stack
 - **Language:** Python 3.x
 - **LLM:** Google Gemini API (`gemini-1.5-flash`)
