@@ -115,3 +115,5 @@ def mark_email_as_read(message_id: str) -> str:
 
 if __name__ == "__main__":
     mcp.run()
+
+# formatting verification
